@@ -1,4 +1,6 @@
 function L(a, b)
     BB = a^2 + b^2;
-    z = 0;
+    CC = 1;
+    SS = b^2 / 4;
+    z = (AA + BB + CC) / 28 - SS^2 / (AA * BB * CC);
 end
