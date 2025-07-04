@@ -1,27 +1,6 @@
 function Lemma14_6
     pair = [];
 
-    a = sym('a'); at = sym('at'); b = sym('b'); bt = sym('bt');
-    d1 = 1 - a; d2 = 1 - 2*a;
-    omega = a*(1 - a)/(1 - a + a^2 + b^2);
-    omega_a = diff(omega, a);
-    omega_b = diff(omega, b);
-    omega_aa = diff(omega_a, a);
-    omega_bb = diff(omega_b, b);
-
-    f = L3ab(a, b);
-    g = (b^2 + (1 - a + a^2 + b^2)^2)/83 ...
-        + (2*a*(1 - a) - 3*b^2)/96 ...
-        - omega/48;
-    pair = [pair [f; g]];
-
-    f = (b^2 + (1 - a + a^2 + b^2)^2)/84 ...
-        + (2*a*(1 - a) - 3*b^2)/96 ...
-        - a*(1 - a)*(7 - 4*b^2)/252;
-    g = (24*(1 - a + a^2 + b^2)^2 ...
-            - 39*b^2 - 2*a*(1 - a)*(7 - 16*b^2))/2016;
-    pair = [pair [f; g]];
-
     f = diff(L3ab(a, b), a);
     g = - 2*(1 - 2*a)*(1 - a + a^2 + b^2)/83 ...
         + (1 - 2*a)/48 ...
