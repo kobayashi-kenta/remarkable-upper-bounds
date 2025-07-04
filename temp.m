@@ -1,3 +1,3 @@
 function Lemma14_6
-    f = (1 - a + a^2 + b^2)^2;
+    f = (b^2)^2;
 end
