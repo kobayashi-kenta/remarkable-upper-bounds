@@ -1,3 +1,4 @@
+% Comment
 function L(a, b)
     AA = (1-a)^2 + b^2;
     BB = a^2 + b^2;
