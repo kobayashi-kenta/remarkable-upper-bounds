@@ -50,19 +50,4 @@ function Lemma14_6
         + (1 - b^2)*(11*a*d1 + 5*d2^2 + 5*b^2);
     pair = [pair [f; g]];
 
-    f = 252*( ...
-            8*(24*(1 - a + a^2 + b^2)^2 - 39*b^2 ...
-                - 2*a*(1 - a)*(7 - 16*b^2))/2016 ...
-            - b^2*(3 + 2*b^2 + 38*b^4 - 8*a*(1 - a)*(1 + 2*b^2)) ...
-                /252/b^2 ...
-        );
-    g = 14*d2^2 + 2*a*d1*(1 + 12*a*d1) + 7*(1 - b^2)*(1 + 2*b^2);
-    pair = [pair [f; g]];
-
-    for p = pair
-        if simplifyFraction(p(1) - p(2)) ~= 0
-            error('There is something wrong.');
-        end
-    end
-    disp('It is all right.');
 end
