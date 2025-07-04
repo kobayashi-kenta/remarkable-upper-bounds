@@ -1,3 +1,3 @@
 function L(a, b)
-f = a + b^2;
+    BB = a^2 + b^2;
 end
