@@ -1,11 +1,6 @@
 function Lemma14_6
     pair = [];
 
-    f = subs(diff(L3ab(a, b), b, 2), b, bt);
-    g = (5 + (1 - 2*a)^2 + 12*bt^2)/83 - 1/sym(16) ...
-        - subs(omega_bb, b, bt)/48;
-    pair = [pair [f; g]];
-
     f = (5 + (1 - 2*a)^2 + 12*bt^2)/83 - 1/sym(16) ...
         + (24 - 64*a*(1 - a) - 17*bt^2)/2112/bt^2;
     g = ((1 - 2*a)^2 + 12*bt^2)/83 ...
