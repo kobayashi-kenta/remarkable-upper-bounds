@@ -1,3 +1,3 @@
 function Lemma14_6
-    f = ((1 - a + a^2 + b^2)^2 - 39*b^2 );
+    f = (1 - a + a^2 + b^2)^2;
 end
