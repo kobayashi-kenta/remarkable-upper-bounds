@@ -3,10 +3,8 @@ function C4_verify
 
     %%  Parameters  %%
     n = 20;
-    ha = 1/sym(50);
-    hb = 1/sym(50);
-    ca = sym(9);
-    cb = sym(9);
+    ha = 1 / sym(50); hb = 1 / sym(50);
+    ca = sym(9); cb = sym(9);
 
     disp('Step 1: Create index');
 

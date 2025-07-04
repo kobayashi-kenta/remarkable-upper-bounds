@@ -3,7 +3,7 @@ function C3_verify
 
     %%  Parameters  %%
     n = 20;
-    ha = 1/sym(50); hb = 1/sym(50);
+    ha = 1 / sym(50); hb = 1 / sym(50);
     ca = sym(6); cb = sym(8);
 
     disp('Step 1: Create index');
