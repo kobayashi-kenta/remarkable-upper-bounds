@@ -1,3 +1,3 @@
-function Lemma14_6
+function f=Lemma14_6
     f = a^2 + b^2;
 end
