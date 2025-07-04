@@ -1,3 +1,3 @@
 function L(a, b)
-f = a^2 + b;
+f = a + b;
 end
