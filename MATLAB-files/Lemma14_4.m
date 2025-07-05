@@ -45,7 +45,7 @@ function Lemma14_4
 
     f = subs(diff(L1ab(a, b), a, 2), a, at);
     g = 1/sym(7) ...
-        - (subs(psi_aa, a, 1 - at) + subs(psi_aa, a, 1 - at))/16;
+        - (subs(psi_aa, a, at) + subs(psi_aa, a, 1 - at))/16;
     pair = [pair [f; g]];
 
     f = 1/sym(7) - 1/sym(16)*( ...
