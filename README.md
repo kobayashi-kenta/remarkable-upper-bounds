@@ -8,3 +8,5 @@ INTALB and Symbolic Math Toolbox are required to execute these codes.
 
 Functions of the form Lemma\*\_\* in Lemma\*\_\*.m are codes to check the correctness of the corresponding Lemma \*.\*.  
 Symbolic Math Toolbox is required to execute these codes.
+
+For further details, please see Program_Description.pdf.
